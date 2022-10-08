@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mantra.eyn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OLX">
+
+        /*Declares an activity (an Activity subclass) that implements part of the application's visual user interface.
+        All activities must be represented by activity elements in the manifest file. Any that are not declared
+        there will not be seen by the system and will never be run.*/
+
+        <activity android:name="com.mantra.eyn.Activities.MyNetworkActivity"/>
+        <activity android:name="com.mantra.eyn.Activities.No_Discounts" />
+        <activity android:name="com.mantra.eyn.Activities.Discount" />
+        <activity android:name="com.mantra.eyn.Activities.maps_and_location" />
+        <activity android:name="com.mantra.eyn.Activities.Edit_Profile" />
+        <activity android:name="com.mantra.eyn.Activities.MyNetworkSecondActivity" />
+        <activity android:name="com.mantra.eyn.Activities.LocationActivity" />
+        <activity android:name="com.mantra.eyn.Activities.EditProfileActivity" />
+        <activity android:name="com.mantra.eyn.Activities.Enter_your_email" />
+        <activity android:name="com.mantra.eyn.Activities.Verify_your_phone" />
+        <activity android:name="com.mantra.eyn.Activities.CommercialVehiclesSparesActivity" />
+        <activity android:name="com.mantra.eyn.Activities.PhoneDetails_TabletActivity" />
+        <activity android:name="com.mantra.eyn.Activities.MobilePhoneDetailsActivity" />
+        <activity android:name="com.mantra.eyn.Activities.MobileDetailesActivity" />
+        <activity
+            android:name="com.mantra.eyn.Activities.MobileActivity"
+            android:label="@string/title_activity_mobile"
+            android:theme="@style/Theme.OLX.NoActionBar" />
+        <activity android:name="com.mantra.eyn.Activities.Invoices" />
+        <activity android:name="com.mantra.eyn.Activities.Help_and_Support" />
+        <activity android:name="com.mantra.eyn.Activities.Privacy" />
+        <activity android:name="com.mantra.eyn.Activities.Google_Login" />
+        <activity android:name="com.mantra.eyn.Activities.Settings" />
+        <activity android:name="com.mantra.eyn.Activities.PhoneDetails_AccessoriesActivity" />
+        <activity android:name="com.mantra.eyn.Activities.ItemDetails" />
+        <activity android:name="com.mantra.eyn.Activities.Categories" />
+        <activity android:name="com.mantra.eyn.Activities.BrowseCategoryDisplayer" />
+        <activity android:name="com.mantra.eyn.Activities.LocationSearchActivity" />
+        <activity android:name="com.mantra.eyn.Activities.NamePageActivity" />
+        <activity android:name="com.mantra.eyn.Activities.Buy_packages" />
+        <activity android:name="com.mantra.eyn.Activities.Invoices_and_billing" />
+        <activity android:name="com.mantra.eyn.Activities.confirmation_code" />
+        <activity android:name="com.mantra.eyn.Activities.LoginActivity" />
+        <activity android:name="com.mantra.eyn.Activities.ProductDetailsActivity" />
+        <activity android:name="com.mantra.eyn.Activities.PhoneDetails" />
+        <activity android:name="com.mantra.eyn.Activities.MainActivity" />
+        <activity android:name="com.mantra.eyn.Activities.MyOrdersActivity" />
+        <activity android:name="com.mantra.eyn.Activities.Password" />
+
+        <activity android:name="com.mantra.eyn.Activities.Team_Ivory" />
+        <activity android:name="com.mantra.eyn.Activities.Welcome_Splash_Screen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>
